@@ -1,0 +1,15 @@
+.pacotes-container {
+  margin-top: -70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: relative;
+}
+
+.pacotes-container > * {
+  margin-right: 55px;
+  margin-top: 30px;
+}

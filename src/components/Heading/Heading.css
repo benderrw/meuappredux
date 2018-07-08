@@ -1,0 +1,24 @@
+.heading {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > .logo {
+  position: absolute;
+  height: 100px;
+  z-index: 2;
+}
+
+.heading > .blue-background {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(to right, rgba(0,35,154,1) 0%,rgba(0,52,222,1) 100%);
+  opacity: 0.5;
+}

@@ -1,4 +1,27 @@
-.navigation {
-	color: red;
-	background-color: red;
+:local(.navigation) {
+  position: absolute;
+  z-index: 2;
+  opacity: 0.9;
+  height: 49px;
+  width: 100%;
+  background-color: #103AC8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:local(.navigation) > :local(.container) {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:local(.navigation) a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+:local(.navigation) > :local(.container) > :local(.title) {
+  width: 70px;
 }

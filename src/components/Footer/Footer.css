@@ -1,0 +1,25 @@
+.footer {
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > * {
+  width: 80%;
+  border-top: 1px solid #8795A2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > * > p {
+  color: #8795A2;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
